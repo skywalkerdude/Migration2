@@ -1,0 +1,80 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Song' 1",
+      "lang": "english",
+      "lyrics": "\n#(Capo 3)\n\n  [D]Song [D7]Number on[ G]e 'chords. [ D]fin."
+    },
+    {
+      "id": 2,
+      "title": "Song 2",
+      "lang": "english",
+      "lyrics": "# [capo 3]\n\n\n\n[D]Song [D7]Number tw[G]o chords. []fin."
+    },
+    {
+      "id": 3,
+      "title": "Dangling song",
+      "lang": "english",
+      "lyrics": "\n\n\n\n[D]Dangling Song\n. fin[A]."
+    }
+  ],
+  "books": [
+    {
+      "id": 3,
+      "name": "Himnos",
+      "lang": "español",
+      "slug": "spanish_hymnal"
+    },
+    {
+      "id": 1,
+      "name": "Blue Songbook",
+      "lang": "english",
+      "slug": "blue_songbook"
+    },
+    {
+      "id": 2,
+      "name": "Hymnal",
+      "lang": "english",
+      "slug": "english_hymnal"
+    },
+    {
+      "id": 4,
+      "name": "Liederbuch",
+      "lang": "Deutsch",
+      "slug": "german_hymnal"
+    },
+    {
+      "id": 5,
+      "name": "Cantiques",
+      "lang": "français",
+      "slug": "french_hymnal"
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "song_id": 1,
+      "book_id": 1,
+      "index": "1"
+    },
+    {
+      "id": 2,
+      "song_id": 2,
+      "book_id": 1,
+      "index": "2"
+    },
+    {
+      "id": 3,
+      "song_id": 2,
+      "book_id": 2,
+      "index": "213"
+    }
+  ],
+  "destroyed": {
+    "songs": [],
+    "references": [],
+    "books": []
+  },
+  "songCount": 1
+}

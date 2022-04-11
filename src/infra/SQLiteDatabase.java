@@ -43,7 +43,7 @@ import java.sql.*;
  *
  * @author Tyler Suehr
  */
-public final class SQLiteDatabase extends SQLiteCloseable {
+public class SQLiteDatabase extends SQLiteCloseable {
     private static final String DRIVER = "org.sqlite.JDBC";
     private static final String PATH = "jdbc:sqlite:";
     private Connection connection;

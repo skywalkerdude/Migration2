@@ -27,7 +27,7 @@ package infra;
 /**
  * @author Tyler Suehr
  */
-public final class DatabaseClient extends SQLiteOpenHelper implements IDatabaseClient {
+public class DatabaseClient extends SQLiteOpenHelper implements IDatabaseClient {
 
     private final SQLiteDatabase db;
 

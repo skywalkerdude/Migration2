@@ -24,10 +24,7 @@
 
 package infra;
 import java.io.Serializable;
-import java.util.Collection;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Basic wrapping of the Java {@link Map} object.
@@ -108,6 +105,24 @@ public final class ContentValues {
 
     public Set<String> getKeys() {
         return data.keySet();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+
+        if (!(obj instanceof ContentValues contentValues)) {
+            return false;
+        }
+
+        return data.equals(contentValues.data);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(data);
     }
 
     @Override
